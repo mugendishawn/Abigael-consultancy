@@ -549,95 +549,112 @@ body {
   text-align: center;
 }
 
-.iraq{
-  background-image: url(images/iraq.jfif);
-  height: 250px;
-  width: 250px;
-  border-radius: 30px;
-  margin: 0 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.oman{
-  background-image: url(images/oman.jfif);
-  height: 250px;
-  width: 250px;
-  border-radius: 30px;
-  margin: 0 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.kuwait{
-  background-image: url(images/kuwait.jfif);
-  height: 250px;
-  width: 250px;
-  border-radius: 30px;
-  margin: 0 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.UAE{
-  background-image: url(images/uae.jfif);
-  height: 250px;
-  width: 250px;
-  border-radius: 30px;
-  margin: 0 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.bahrain{
-  background-image: url(images/bahrain.jfif);
-  height: 250px;
-  width: 250px;
-  border-radius: 30px;
-  margin: 0 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.jordan{
-  background-image: url(images/jordan.jfif);
-  height: 250px;
-  width: 250px;
-  border-radius: 30px;
-  margin: 0 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.saudi{
-  background-image: url(images/saudi.jfif);
-  height: 250px;
-  width: 250px;
-  border-radius: 30px;
-  margin: 0 20px;
-  background-repeat: no-repeat;
-  background-size: cover;
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
 }
 
-.countries{
- display: grid;
- grid-template-columns: 200px 200px 200px 200px;
- gap: 5em;
-}
-
-
-.jobs{
-  color: #fff;
-  padding: 20px;
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.find-jobs p{
-  border-radius: 35px;
-  padding: 20px;
-  border: 2px solid #fff;
-  width: 250px;
-  height: 250px;
+/* HERO SECTION */
+.job-register {
   text-align: center;
-  background-color: #fff;
+  margin-bottom: 80px;
 }
+
+.job-register h4 {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.job-register h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.job-register p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  color: #555;
+}
+
+/* STATS */
+.stats {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 25px;
+}
+
+.stats li {
+  font-weight: bold;
+}
+
+/* BUTTON */
+.btn {
+  padding: 12px 24px;
+  background: #3b5cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #cc631d;
+  cursor: pointer;
+}
+
+/* FIND JOBS SECTION */
+.find-jobs {
+  text-align: center;
+}
+
+.find-jobs h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: green;
+  font-size: 14px;
+}
+
+.find-jobs h3 {
+  margin: 15px 0 40px;
+}
+
+/* COUNTRY GRID */
+.countries {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+/* COUNTRY CARD */
+.country {
+  width: 200px;
+  height: 140px;
+  border-radius: 14px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  padding: 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Example backgrounds */
+.iraq { background-image: url("images/iraq.jfif"); }
+.kuwait { background-image: url("images/kuwait.jfif"); }
+.oman { background-image: url("images/oman.jfif"); }
+.uae { background-image: url("images/uae.jfif"); }
+.saudi { background-image: url("images/saudi.jfif"); }
+.bahrain { background-image: url("images/bahrain.jfif"); }
+.jordan { background-image: url("images/jordan.jfif"); }
+
 
 .start{
   margin-top: 20px;
